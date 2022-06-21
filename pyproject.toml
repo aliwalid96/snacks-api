@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "snacks-api"
+version = "0.1.0"
+description = ""
+authors = ["aliwalid96 <ali-waleed96@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.4"
+djangorestframework-jsonapi = "^5.0.0"
+django-filter = "^21.1"
+djangorestframework = "^3.13.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
